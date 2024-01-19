@@ -1,20 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\PC\Documents\GitHub\iotapp\build\windows\CMakeFiles\d9b8eff42f496dd4ca44982687b4e67c\flutter_windows.dll.rule">
+    <CustomBuild Include="C:\Users\PC\Documents\GitHub\appiottry\build\windows\CMakeFiles\a1b30834b7367eda1e8da06de7961111\flutter_windows.dll.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\PC\Documents\GitHub\iotapp\build\windows\CMakeFiles\550d54899667eb4b69ffbd007ab015b6\flutter_assemble.rule">
+    <CustomBuild Include="C:\Users\PC\Documents\GitHub\appiottry\build\windows\CMakeFiles\5c561423fc3882b41ee6932e27cc827b\flutter_assemble.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\PC\Documents\GitHub\iotapp\windows\flutter\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\PC\Documents\GitHub\appiottry\windows\flutter\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\PC\Documents\GitHub\iotapp\build\windows\flutter\CMakeFiles\flutter_assemble" />
+    <None Include="C:\Users\PC\Documents\GitHub\appiottry\build\windows\flutter\CMakeFiles\flutter_assemble" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{73C3D45A-D804-3CD2-ABB2-9399B440FE91}</UniqueIdentifier>
+      <UniqueIdentifier>{97851C31-12BB-3227-8EFE-246A42B2EE89}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

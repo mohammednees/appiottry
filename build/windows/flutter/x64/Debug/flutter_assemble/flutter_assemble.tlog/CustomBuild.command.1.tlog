@@ -1,6 +1,6 @@
-^C:\USERS\PC\DOCUMENTS\GITHUB\IOTAPP\BUILD\WINDOWS\CMAKEFILES\D9B8EFF42F496DD4CA44982687B4E67C\FLUTTER_WINDOWS.DLL.RULE
+^C:\USERS\PC\DOCUMENTS\GITHUB\APPIOTTRY\BUILD\WINDOWS\CMAKEFILES\A1B30834B7367EDA1E8DA06DE7961111\FLUTTER_WINDOWS.DLL.RULE
 setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=D:\Programs\flutter\flutter PROJECT_DIR=C:\Users\PC\Documents\GitHub\iotapp FLUTTER_ROOT=D:\Programs\flutter\flutter FLUTTER_EPHEMERAL_DIR=C:\Users\PC\Documents\GitHub\iotapp\windows\flutter\ephemeral PROJECT_DIR=C:\Users\PC\Documents\GitHub\iotapp FLUTTER_TARGET=C:\Users\PC\Documents\GitHub\iotapp\lib\main.dart DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ==,RkxVVFRFUl9XRUJfQ0FOVkFTS0lUX1VSTD1odHRwczovL3d3dy5nc3RhdGljLmNvbS9mbHV0dGVyLWNhbnZhc2tpdC80NWY2ZTAwOTExMGRmNGYzNGVjMmNmOTlmNjNjZjczYjcxYjdhNDIwLw== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=C:\Users\PC\Documents\GitHub\iotapp\.dart_tool\package_config.json D:/Programs/flutter/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=D:\Programs\flutter\flutter PROJECT_DIR=C:\Users\PC\Documents\GitHub\appiottry FLUTTER_ROOT=D:\Programs\flutter\flutter FLUTTER_EPHEMERAL_DIR=C:\Users\PC\Documents\GitHub\appiottry\windows\flutter\ephemeral PROJECT_DIR=C:\Users\PC\Documents\GitHub\appiottry FLUTTER_TARGET=C:\Users\PC\Documents\GitHub\appiottry\lib\main.dart DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ==,RkxVVFRFUl9XRUJfQ0FOVkFTS0lUX1VSTD1odHRwczovL3d3dy5nc3RhdGljLmNvbS9mbHV0dGVyLWNhbnZhc2tpdC80NWY2ZTAwOTExMGRmNGYzNGVjMmNmOTlmNjNjZjczYjcxYjdhNDIwLw== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=C:\Users\PC\Documents\GitHub\appiottry\.dart_tool\package_config.json D:/Programs/flutter/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -8,7 +8,7 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\PC\DOCUMENTS\GITHUB\IOTAPP\BUILD\WINDOWS\CMAKEFILES\550D54899667EB4B69FFBD007AB015B6\FLUTTER_ASSEMBLE.RULE
+^C:\USERS\PC\DOCUMENTS\GITHUB\APPIOTTRY\BUILD\WINDOWS\CMAKEFILES\5C561423FC3882B41EE6932E27CC827B\FLUTTER_ASSEMBLE.RULE
 setlocal
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -16,9 +16,9 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\PC\DOCUMENTS\GITHUB\IOTAPP\WINDOWS\FLUTTER\CMAKELISTS.TXT
+^C:\USERS\PC\DOCUMENTS\GITHUB\APPIOTTRY\WINDOWS\FLUTTER\CMAKELISTS.TXT
 setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/PC/Documents/GitHub/iotapp/windows -BC:/Users/PC/Documents/GitHub/iotapp/build/windows --check-stamp-file C:/Users/PC/Documents/GitHub/iotapp/build/windows/flutter/CMakeFiles/generate.stamp
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/PC/Documents/GitHub/appiottry/windows -BC:/Users/PC/Documents/GitHub/appiottry/build/windows --check-stamp-file C:/Users/PC/Documents/GitHub/appiottry/build/windows/flutter/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

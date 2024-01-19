@@ -1,28 +1,28 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\PC\Documents\GitHub\iotapp\windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc">
+    <ClCompile Include="C:\Users\PC\Documents\GitHub\appiottry\windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\PC\Documents\GitHub\iotapp\windows\flutter\ephemeral\cpp_client_wrapper\standard_codec.cc">
+    <ClCompile Include="C:\Users\PC\Documents\GitHub\appiottry\windows\flutter\ephemeral\cpp_client_wrapper\standard_codec.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\PC\Documents\GitHub\iotapp\windows\flutter\ephemeral\cpp_client_wrapper\flutter_engine.cc">
+    <ClCompile Include="C:\Users\PC\Documents\GitHub\appiottry\windows\flutter\ephemeral\cpp_client_wrapper\flutter_engine.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\PC\Documents\GitHub\iotapp\windows\flutter\ephemeral\cpp_client_wrapper\flutter_view_controller.cc">
+    <ClCompile Include="C:\Users\PC\Documents\GitHub\appiottry\windows\flutter\ephemeral\cpp_client_wrapper\flutter_view_controller.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\PC\Documents\GitHub\iotapp\windows\flutter\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\PC\Documents\GitHub\appiottry\windows\flutter\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{73C3D45A-D804-3CD2-ABB2-9399B440FE91}</UniqueIdentifier>
+      <UniqueIdentifier>{97851C31-12BB-3227-8EFE-246A42B2EE89}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{6C0D86CB-3EC0-3880-A6BF-615FC8A7FC89}</UniqueIdentifier>
+      <UniqueIdentifier>{B0C95758-1F65-31E0-A4F9-844300F421C9}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

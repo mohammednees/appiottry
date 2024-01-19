@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\PC\Documents\GitHub\iotapp\build\windows\CMakeFiles\8cdf371a0029d7275e5220967fa9c264\INSTALL_force.rule">
+    <CustomBuild Include="C:\Users\PC\Documents\GitHub\appiottry\build\windows\CMakeFiles\431680623d48130adf853ded02dc9b08\INSTALL_force.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{73C3D45A-D804-3CD2-ABB2-9399B440FE91}</UniqueIdentifier>
+      <UniqueIdentifier>{97851C31-12BB-3227-8EFE-246A42B2EE89}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

@@ -181,7 +181,16 @@ class _LoginScreenState extends State<LoginScreen> {
   }
 
 /////////////////////-Functions-/////////////////////////////
-  void _trySubmit(BuildContext context) async {}
+  void _trySubmit(BuildContext context) async {
+    final isValid = _formKey.currentState!.validate();
+    FocusScope.of(context).unfocus();
+
+    if (isValid) {
+      _formKey.currentState!.save();
+      ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(content: Text(_email.toString() + _password.toString())));
+    }
+  }
 
   Future<void> _getUserIinformation() async {}
 }

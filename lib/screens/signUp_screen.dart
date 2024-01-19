@@ -61,8 +61,6 @@ class _SignUpScreenState extends State<SignUpScreen> {
                   SizedBox(height: 20),
                   passwordTextField(),
                   SizedBox(height: 10),
-                  ageChooser(),
-                  SizedBox(height: 20),
                   signUpButton(context),
                   SizedBox(height: 10),
                 ],
@@ -152,13 +150,13 @@ class _SignUpScreenState extends State<SignUpScreen> {
           Container(
             width: 300,
             height: 50,
-            decoration: BoxDecoration(
+            decoration: const BoxDecoration(
                 gradient: LinearGradient(
                     begin: Alignment.centerLeft,
                     end: Alignment.centerRight,
                     colors: [
-                      const Color.fromARGB(255, 122, 122, 122),
-                      const Color.fromARGB(255, 90, 89, 89)
+                      Color.fromARGB(255, 122, 122, 122),
+                      Color.fromARGB(255, 90, 89, 89)
                     ]),
                 borderRadius: BorderRadius.all(
                   Radius.circular(25),
@@ -170,10 +168,10 @@ class _SignUpScreenState extends State<SignUpScreen> {
             child: Container(
                 width: 40,
                 height: 40,
-                decoration: BoxDecoration(
+                decoration: const BoxDecoration(
                     color: Colors.blue,
                     borderRadius: BorderRadius.all(Radius.circular(20))),
-                child: Icon(
+                child: const Icon(
                   Icons.arrow_forward,
                   color: Colors.white,
                 )),
@@ -194,7 +192,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
       ),
     );
   }
-
+/* 
   ageChooser() {
     var days = List<String>.generate(30, (int index) => (index + 1).toString());
     var months =
@@ -207,7 +205,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
         Text('Birthday : '),
         Container(
           width: 80,
-          padding: EdgeInsets.fromLTRB(20.0, 0.0, 5.0, 0.0),
+          padding: const EdgeInsets.fromLTRB(20.0, 0.0, 5.0, 0.0),
           decoration: BoxDecoration(
               border:
                   Border.all(color: Colors.grey.withOpacity(0.3), width: 0.5),
@@ -259,36 +257,36 @@ class _SignUpScreenState extends State<SignUpScreen> {
             },
           ),
         ),
-        Container(
-          width: 120,
-          padding: EdgeInsets.fromLTRB(20.0, 0.0, 5.0, 0.0),
-          decoration: BoxDecoration(
-              border:
-                  Border.all(color: Colors.grey.withOpacity(0.3), width: 0.5),
-              borderRadius: BorderRadius.all(Radius.circular(5.0))),
-          child: DropdownButton<String>(
-            underline: SizedBox(),
-            isExpanded: true,
-            items: years.map((String value) {
-              return DropdownMenuItem<String>(
-                value: value,
-                child: Text(
-                  value,
-                ),
-              );
-            }).toList(),
-            value: _selectedYear,
-            onChanged: (newVal) {
-              setState(() {
-                _selectedYear = newVal;
-                _age['year'] = newVal;
-              });
-            },
-          ),
-        ),
-      ],
-    );
-  }
+        // Container(
+        //   width: 120,
+        //   padding: EdgeInsets.fromLTRB(20.0, 0.0, 5.0, 0.0),
+        //   decoration: BoxDecoration(
+        //       border:
+        //           Border.all(color: Colors.grey.withOpacity(0.3), width: 0.5),
+        //       borderRadius: BorderRadius.all(Radius.circular(5.0))),
+        //   child: DropdownButton<String>(
+        //     underline: SizedBox(),
+        //     isExpanded: true,
+        //     items: years.map((String value) {
+        //       return DropdownMenuItem<String>(
+        //         value: value,
+        //         child: Text(
+        //           value,
+        //         ),
+        //       );
+        //     }).toList(),
+        //     value: _selectedYear,
+        //     onChanged: (newVal) {
+        //       setState(() {
+        //         _selectedYear = newVal;
+        //         _age['year'] = newVal;
+        //       });
+        //     },
+        //   ),
+        // ), */
+  //  ],
+  //  );
+//  }
 
 /////////////////////-Functions-/////////////////////////////
   _trySubmit(BuildContext ctx) {
