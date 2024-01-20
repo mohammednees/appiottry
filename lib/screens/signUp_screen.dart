@@ -9,15 +9,9 @@ class _SignUpScreenState extends State<SignUpScreen> {
   String? _email = '';
   String? _password = '';
   String? _name = '';
-  Map<String, dynamic> _age = {};
-  String? _selectedDay = '1';
-  String? _selectedMonth = '1';
-  String? _selectedYear = '1970';
   final _nameFocusNode = FocusNode();
   final _passwordFocusNode = FocusNode();
   final _formKey = GlobalKey<FormState>();
-
-  bool _isLoading = false;
 
   @override
   void dispose() {
@@ -54,15 +48,15 @@ class _SignUpScreenState extends State<SignUpScreen> {
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   headerText(),
-                  SizedBox(height: 20),
+                  const SizedBox(height: 20),
                   emailTextField(),
-                  SizedBox(height: 20),
+                  const SizedBox(height: 20),
                   nameTextField(),
-                  SizedBox(height: 20),
+                  const SizedBox(height: 20),
                   passwordTextField(),
-                  SizedBox(height: 10),
+                  const SizedBox(height: 10),
                   signUpButton(context),
-                  SizedBox(height: 10),
+                  const SizedBox(height: 10),
                 ],
               ),
             ),
@@ -192,101 +186,6 @@ class _SignUpScreenState extends State<SignUpScreen> {
       ),
     );
   }
-/* 
-  ageChooser() {
-    var days = List<String>.generate(30, (int index) => (index + 1).toString());
-    var months =
-        List<String>.generate(12, (int index) => (index + 1).toString());
-    var years =
-        List<String>.generate(200, (int index) => (index + 1900).toString());
-    return Row(
-      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-      children: [
-        Text('Birthday : '),
-        Container(
-          width: 80,
-          padding: const EdgeInsets.fromLTRB(20.0, 0.0, 5.0, 0.0),
-          decoration: BoxDecoration(
-              border:
-                  Border.all(color: Colors.grey.withOpacity(0.3), width: 0.5),
-              borderRadius: BorderRadius.all(Radius.circular(5.0))),
-          child: DropdownButton<String>(
-            underline: SizedBox(),
-            isExpanded: true,
-            items: days.map((String value) {
-              return DropdownMenuItem<String>(
-                value: value,
-                child: Text(
-                  value,
-                ),
-              );
-            }).toList(),
-            value: _selectedDay,
-            onChanged: (newVal) {
-              setState(() {
-                _selectedDay = newVal;
-                _age['day'] = newVal;
-              });
-            },
-          ),
-        ),
-        Container(
-          width: 80,
-          padding: EdgeInsets.fromLTRB(20.0, 0.0, 5.0, 0.0),
-          decoration: BoxDecoration(
-              border:
-                  Border.all(color: Colors.grey.withOpacity(0.3), width: 0.5),
-              borderRadius: BorderRadius.all(Radius.circular(5.0))),
-          child: DropdownButton<String>(
-            underline: SizedBox(),
-            isExpanded: true,
-            items: months.map((String value) {
-              return DropdownMenuItem<String>(
-                value: value,
-                child: Text(
-                  value,
-                ),
-              );
-            }).toList(),
-            value: _selectedMonth,
-            onChanged: (newVal) {
-              setState(() {
-                _selectedMonth = newVal;
-                _age['month'] = newVal;
-              });
-            },
-          ),
-        ),
-        // Container(
-        //   width: 120,
-        //   padding: EdgeInsets.fromLTRB(20.0, 0.0, 5.0, 0.0),
-        //   decoration: BoxDecoration(
-        //       border:
-        //           Border.all(color: Colors.grey.withOpacity(0.3), width: 0.5),
-        //       borderRadius: BorderRadius.all(Radius.circular(5.0))),
-        //   child: DropdownButton<String>(
-        //     underline: SizedBox(),
-        //     isExpanded: true,
-        //     items: years.map((String value) {
-        //       return DropdownMenuItem<String>(
-        //         value: value,
-        //         child: Text(
-        //           value,
-        //         ),
-        //       );
-        //     }).toList(),
-        //     value: _selectedYear,
-        //     onChanged: (newVal) {
-        //       setState(() {
-        //         _selectedYear = newVal;
-        //         _age['year'] = newVal;
-        //       });
-        //     },
-        //   ),
-        // ), */
-  //  ],
-  //  );
-//  }
 
 /////////////////////-Functions-/////////////////////////////
   _trySubmit(BuildContext ctx) {
@@ -295,8 +194,9 @@ class _SignUpScreenState extends State<SignUpScreen> {
 
     if (isValid) {
       _formKey.currentState!.save();
-      ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(content: Text(_email.toString() + _password.toString())));
+      ScaffoldMessenger.of(context).showSnackBar(SnackBar(
+          content: Text(
+              _email.toString() + _password.toString() + _name.toString())));
       _submitAuthForm(_email!.trim(), _password!.trim(), ctx);
     }
   }
