@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/PC/Documents/GitHub/appiottry/windows/runner
+# Install script for directory: C:/Users/ezzo_/OneDrive/Documents/GitHub/appiottry/windows/runner
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
